@@ -1,0 +1,122 @@
+/* Utility classes */
+
+.h1{
+    font-size: 1.5rem;
+}
+
+
+/* Navigation bar */
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul{
+    margin:auto;
+}
+
+#navbar ul li a{
+    font-size: 0.92rem;
+    padding: 0px 4px;
+    padding-bottom: 8px;
+    margin: 6px;
+
+}
+
+/* About */
+
+#about{
+    padding-top:300px;
+    font-weight:300;
+    height:500px;
+}
+
+#about::before{
+    height:820px;
+}
+
+/* register.html */
+
+#register{
+    flex-direction: column;
+    height: 1000px;
+}
+#register:before{
+    height: 1150px;
+}
+
+#register-form{
+    width: 81%;
+}
+#logo img{
+    height: 120px;
+    width: auto;
+}
+
+#logo h2{
+    font-size: 1.1rem;
+}
+
+#benefits{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+/* menu.html */
+
+#menu{
+    flex-direction: column;
+}
+
+.menu-box{
+    width: 60vw;
+}
+
+#menu::before{
+    background-color: rgb(112, 148, 150);
+    background-image: none;
+    height: 3860px;
+    z-index: -1;
+}
+
+/* Services */
+
+#service-box{
+    flex-direction: column;
+}
+
+.box{
+    /* height: 380px;
+    width: 801px; */
+    width: 94%;
+    height: auto;
+}
+
+#services::before{
+    height: 2300px;
+}
+
+
+/* Client section */
+
+#clients-img{
+    width: 100%;
+    height: auto;
+    overflow:scroll;
+}
+
+#clients::before{
+    height: 411px;
+}
+
+
+/* Contact section */
+
+
+/*Footer */
+
+
+/* order.html */
+#order::before{
+    height: 810px;
+}
