@@ -72,7 +72,7 @@ html{
 
 #navbar ul li a:hover{
     color:black;
-    background-color: palegoldenrod;
+    background-color: yellow;
 }
 
 
@@ -252,9 +252,9 @@ html{
 /* Copyright section */
 
 #footer{
-    background: black;
+    background-color: black;
     color: white;
-    padding: 9px 20px;
+    padding: 10px 20px;
     text-align: center;
     position: relative;
     bottom: 0px; 
